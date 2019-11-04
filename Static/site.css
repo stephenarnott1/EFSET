@@ -1,0 +1,343 @@
+.body-content {
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.gmisc_table tr:hover th[scope=row], .gmisc_table tr:hover td { 
+	background-color: #D3d5d1;
+	color: #000;
+	}
+    table {
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	background: #ffff;
+	}
+	th, td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+}
+.gmisc_table th[scope=col]{
+	border-bottom: 2px solid #333;
+	border-right: 2px solid #333;
+}
+.gmisc_table th, .gmisc_table td { padding: 0.5em; }
+
+/***********************************
+Text Tool Tips
+************************************/
+.CellWithComment{position:relative;}
+
+.CellCommentAP {
+    visibility: hidden;
+    width: auto;
+    position:absolute;					
+    z-index:100;
+    text-align: Left;
+    opacity: 0.4;
+    border-radius: 6px;
+    background-color: #fbb819;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+    padding:3px;
+    top:20px; 
+    left:0px;
+}   
+.CellWithComment:hover span.CellCommentAP {visibility: visible;opacity: 1;}
+		
+.CellCommentFR {
+    visibility: hidden;
+    width: auto;
+    position:absolute; 
+	z-index:100;
+    text-align: Left;
+    opacity: 0.4;
+    border-radius: 6px;
+    background-color: #df3d5e;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+    padding:3px;
+    top:-30px; 
+    left:0px;
+}   
+.CellWithComment:hover span.CellCommentFR {visibility: visible;opacity: 1;}
+		
+.CellCommentV {
+    visibility: hidden;
+    width: auto;
+    position:absolute; 
+    z-index:100;
+    text-align: Left;
+    opacity: 0.4;
+    border-radius: 6px;
+    background-color: #8a6e91;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+    padding:3px;
+    top:-30px; 
+    left:0px;
+	right:0px;
+}   
+.CellWithComment:hover span.CellCommentV {visibility: visible;opacity: 1;}
+		
+.CellCommentGEN {
+    visibility: hidden;
+    width: auto;
+    position:absolute;
+    z-index:100;
+    text-align: Left;
+    opacity: 0.4;
+    border-radius: 6px;
+    background-color: #3ca9a1;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+    padding:3px;
+    top:20px; 
+    left:0px;
+}   
+.CellWithComment:hover span.CellCommentGEN {visibility: visible;opacity: 1;}
+		
+.forexplanation {
+	text-decoration: underline;
+}
+.menu-closed-logo {
+	vertical-align: top;
+	float: right;
+}
+.domaindesc{
+    border-top-width: 5px;
+    border-top-color: rgb(0, 0, 0)
+}
+.navbar {
+    margin-bottom: 0;
+  }
+
+.navbar-inverse {
+    background: #2e2f31;
+    border: 0;
+  }
+.navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+  }
+.navbar-inverse .navbar-nav li a:hover {
+    background: #1b998b;
+  }
+  .dropdown-menu {
+    background: #2e2f31;
+    border-radius: 0;
+    border: 0;
+  }
+.dropdown-menu li a {
+    padding: 10px;
+  }
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2c463c;
+  }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#27a967' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler { border-color: #9ba19b; }
+
+.big-text{
+  font-size: 35px;
+}
+.small-text{
+  font-size: 16px;
+}
+.giant-text{
+  font-size: 60px;
+}
+
+.med-text{
+  font-size:25px;
+}
+.centre-align{
+  align-content: center;
+  align-items: center;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center{
+  text-align: center;
+}
+/*************
+Banner Details
+********/
+
+.banner{
+	background: no-repeat center top;
+  background-size: cover;
+	min-height: 580px;
+  position: relative;
+}
+
+.bg-color{
+	background-color: rgba(12, 11, 11, 0.8);
+	min-height: 580px;
+}
+
+.text-border{
+	border: 5px solid rgb(248, 248, 248);
+	display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+
+.padded{
+  padding: 60px 0px;
+}
+
+.jumbotron {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+/* home page */
+.color-theme-a1{
+  background-color: #e63946;
+}
+
+.color-theme-a2 {
+  background-color: #457b9d;
+}
+
+.color-theme-a3 {
+  background-color: #a8dadc;
+}
+
+.color-theme-a3 {
+  background-color: #1d3557;
+  color: #f7f7f7;
+}
+
+/* login page */
+.color-theme-b1{
+  background-color: #1b998b;
+}
+
+.color-theme-b2 {
+  background-color: #f8f1ff;
+}
+
+.color-theme-b3 {
+  background-color: #decdf5;
+}
+
+.color-theme-b4 {
+  background-color: #656176;
+  color: #f7f7f7;
+}
+
+.login-button{
+  background-color: rgb(47, 71, 62);
+  color: #f7f7f7;
+}
+.login-button:hover{
+  background-color: #0f3120;
+  color:  #f7f7f7;
+}
+
+/* theme 3 */
+.color-theme-c1{
+  background-color: #ce2d4f;
+}
+
+.color-theme-c2 {
+  background-color: #ce6d8b;
+}
+
+.color-theme-c3 {
+  background-color: #efefef;
+  color: #000000;
+}
+
+.color-theme-c4 {
+  background-color: #4056f4;
+  color: #f7f7f7;
+}
+
+.color-theme-c5 {
+  background-color: #470ff4;
+  color: #f7f7f7;
+}
+/* EF Colors */
+.first-blue {
+  background-color: #009eeb;
+  color: #ffff;
+}
+.education-blue {
+  background-color: #003c64;
+  color: #ffff;
+}
+.education-blue a{
+  color: #ffff;
+}
+.hello-pink {
+  background-color: #ff329b;
+  color: #ffff;
+}
+.ef-grey {
+  background-color: #efefef;
+  color: #000000;
+}
+/* admin page theme */
+.color-admin-1{
+  background-color: #2b2d42;
+}
+.color-admin-2{
+  background-color: #8d99ae;
+}
+.color-admin-3{
+  background-color: #edf2f4;
+}
+.color-admin-4{
+  background-color: #ef233c;
+}
+.color-admin-5{
+  background-color: #d80032;
+}
+.jumbotron p {
+  color: white;
+  font-size: 26px;
+}
+
+.max{
+  max-width: 100%;
+  width:100%;
+}
+
+.box-pad{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+.submit-button{
+  background-color: #656176;
+  border-color: #656176;
+  color: #f7f7f7;
+}
+.submit-button:hover{
+  background-color: #5a5768;
+  color:  #f7f7f7;
+}
+
+.font-icon-large{
+  font-size: 50px;
+}
