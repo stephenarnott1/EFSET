@@ -329,9 +329,8 @@ textarea {
 }
 .max{
   max-width: 100%;
-  height: 75px;
- width:100%;
- margin-bottom: 20px;
+  width:100%;
+  margin-bottom: 20px;
  }
 .box-pad{
  padding-bottom: 20px;
@@ -398,6 +397,12 @@ color: white;
   .table-format{
     border: 0px; 
     padding: 40px;
-    font-size: 15px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .table-format-small{
+    border: 0px; 
+    padding: 40px;
+    font-size: 20px;
     text-align: center;
   }
