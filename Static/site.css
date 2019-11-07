@@ -13,7 +13,6 @@
 	margin: 0;
 	border-collapse: collapse;
 	border: 1px solid black;
-	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.9em;
 	color: #000;
   background: #ffff;
@@ -370,7 +369,7 @@ color: white;
   height: 250px;
 }
 .table-calibration tr:hover th[scope=row], .table-calibration tr:hover td { 
-  background-color: #D3d5d1;
+  background-color: #8f9091;
   color: #000;
   }
   table {
