@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <title>Follow Up Calibration</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="/Static/site.css">
+<link rel="stylesheet" href="../Static/site.css">
 </head>
 <body>
     <div class="row">
@@ -16,7 +16,8 @@
               </div>
               <div class="col-sm-8">
                   <h1> Follow Up Calibrations </h1>
-                  <p>These are optional calibrations for training/follow up purposes</p>
+                  <p>These are optional calibrations for training/follow up purposes. <br>
+                Previous monthly calibrations will also be stored here for new teachers so observe, or for teachers who missed a monthly calibration.</p>
               </div>
               <div class="col-sm-2">
                 <img class="menu-closed-logo" alt="EF Education First" src="https://www.ef.com/sitecore/__/~/media/universal/logo/global-header/2018/black/00.svg" height = "50" width = "80"> 
@@ -24,48 +25,71 @@
               <div class="col-sm-12">
                 <hr>
               </div>
-      <div class="col-sm-5">
-            <table style="margin: 1.75rem auto;">
-                    <thead>
-                        <tr>
-                        <th style='border-bottom: 5px solid grey; border-top: 5px solid grey; text-align: center;'>Observation ID</th>
-                        <th style='border-bottom: 5px solid grey; border-top: 5px solid grey; text-align: center;'>Page Link</th>
+            </div>
+            <div class="row">
+                        <div class="col-sm-6">
+                                <table class="table-calibration" style="border: 0px;">
+                                        <thead>
+                                            <th class="table-format" style="font-size: 20px;">Date</th>
+                                            <th class="table-format" style="font-size: 20px;">Type</th>
+                                            <th class="table-format" style="font-size: 20px;">ID</th>
+                                            <th class="table-format" style="font-size: 20px;">Calibration Link</th>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="table-format">N/A</td>
+                                            <td class="table-format">Follow Up</td>
+                                            <td class="table-format">580721</td>
+                                            <td class="table-format">
+                                                <input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary">
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table-format">N/A</td>
+                                            <td class="table-format">Follow Up</td>
+                                            <td class="table-format">881454</td>
+                                            <td class="table-format">
+                                                <input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary">
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="table-format">N/A</td>
+                                            <td class="table-format">Follow Up</td>
+                                            <td class="table-format">155758</td>
+                                            <td class="table-format">
+                                                <input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary">
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="table-format">N/A</td>
+                                            <td class="table-format">Follow Up</td>
+                                            <td class="table-format">192348</td>
+                                            <td class="table-format">
+                                                <input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary">
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="table-format">September 2019</td>
+                                            <td class="table-format">Month Calibration</td>
+                                            <td class="table-format">200533</td>
+                                            <td class="table-format">
+                                                <input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary">
+                                             </td>
+                                         </tr>
+                                        </tbody>
+                                      </table>
+                          </div>
+                          <div class="col=sm-6 jumbotron">
+                            <h3>Guidance on Follow Up Observations</h3>
+                            <p>Follow up observations are designed to provide further assistance, training, <br> or support, to teachers who are scoring below the desired threshold. <br>
+                            Teacher who require follow up calibration excerises are displayed <br> in the 'Follow Up' section of the BI report sent to centre management.
+                            </p>
+                          </div>
+            </div>
 
-                        </tr>
-                    </thead>
-                    <tbody class="margin-pad">
-                        <tr>
-                            <td class='text-center;'>11111</td>
-                            <td class='text-center;'><input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary"></td>
-                        </tr>
-                        <tr>
-                            <td class='text-center;'>22222</td>
-                            <td class='text-center;'><input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary"></td>
-                        </tr>
-                        <tr>
-                            <td class='text-center;'>33333</td>
-                            <td class='text-center;'><input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary"></td>
-                        </tr>
-                        <tr>
-                            <td class='text-center;'>44444</td>
-                            <td class='text-center;'><input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary"></td>
-                        </tr>
-                        <tr>
-                            <td class='text-center;'>55555</td>
-                            <td class='text-center;'><input type=submit onclick="location.href=''" value='Observe' class="btn btn-primary"></td>
-                        </tr>
-                    </tbody>
-              </thead>
-          </table>
-      </div>
-      <div class="col-sm-1"></div>
-      <div class="col=sm-6 text-center">
-        <h3>Guidance on Follow Up Observations</h3>
-        <p>Follow up observations are designed to provide further assistance, training, <br> or support, to teachers who are scoring below the desired threshold. <br>
-        Teacher who require follow up calibration excerises are displayed <br> in the 'Follow Up' section of the BI report sent to centre management.
-        </p>
-      </div>
+     
     </div>
+    <div class = "col-sm-1"></div>
         </div>
     </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

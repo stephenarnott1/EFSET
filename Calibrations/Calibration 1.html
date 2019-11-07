@@ -1,172 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body{
-          font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-          }
-        .gmisc_table tr:hover th[scope=row], .gmisc_table tr:hover td
-          { 
-            background-color: #D3d5d1;
-            color: #000;
-          }
-        table{
-          padding: 0;
-          margin: 0;
-          border-collapse: collapse;
-          border: 1px solid black;
-          font-size: 0.9em;
-          color: #000;
-          background: #ffff;
-          }
-        th, td{
-          border: 1px solid black;
-          padding: 10px;
-          text-align: left;
-          }
-        .gmisc_table th[scope=col]{
-          border-bottom: 2px solid #333;
-          border-right: 2px solid #333;
-          }
-        .gmisc_table th, .gmisc_table td { padding: 0.5em; }
-      
-          .CellWithComment{position:relative;}
-      
-          .CellCommentAP{
-              visibility: hidden;
-              width: auto;
-              position:absolute;					
-              z-index:100;
-              text-align: Left;
-              opacity: 0.4;
-                  border-radius: 6px;
-              background-color: #fbb819;
-              color: #ffff;
-            font-size: 14px;
-            text-align: center;
-              padding:3px;
-              top:20px; 
-              left:0px;
-          }   
-          .CellWithComment:hover span.CellCommentAP {visibility: visible;opacity: 1;}
-        
-        .CellCommentFR{
-              visibility: hidden;
-              width: auto;
-              position:absolute; 
-          z-index:100;
-              text-align: Left;
-              opacity: 0.4;
-              border-radius: 6px;
-              background-color: #df3d5e;
-            color: #ffff;
-          font-size: 14px;
-          text-align: center;
-              padding:3px;        top:-30px; 
-              left:0px;
-              }   
-          .CellWithComment:hover span.CellCommentFR {visibility: visible;opacity: 1;}
-          
-        .CellCommentV{
-              visibility: hidden;
-              width: auto;
-              position:absolute; 
-              z-index:100;
-              text-align: Left;
-              opacity: 0.4;
-              border-radius: 6px;
-              background-color: #8a6e91;
-            color: #ffff;
-          font-size: 15px;
-          text-align: center;
-              padding:3px;
-              top:-30px; 
-              left:0px;
-          right:0px;
-              }   
-          .CellWithComment:hover span.CellCommentV {visibility: visible;opacity: 1;}
-          
-        .CellCommentGEN{
-              visibility: hidden;
-              width: auto;
-              position:absolute;
-              z-index:100;
-              text-align: Left;
-              opacity: 0.4;
-              border-radius: 6px;
-              background-color: #3ca9a1;
-            color: #ffff;
-          font-size: 14px;
-          text-align: center;
-              padding:3px;
-              top:20px; 
-              left:0px;
-              }   
-          .CellWithComment:hover span.CellCommentGEN {visibility: visible;opacity: 1;}
-          
-        .forexplanation {
-          text-decoration: underline;
-          }
-        .menu-closed-logo {
-          vertical-align: top;
-          float: right;
-          }
-          .domaindesc{
-              border-top-width: 5px;
-              border-top-color: rgb(0, 0, 0)
-              }
-          .text-center{
-              text-align: center;
-              }
-          .font-icon-large{
-              font-size: 50px;
-              }
-          .max{
-               max-width: 100%;
-               height: 75px;
-              width:100%;
-              margin-bottom: 20px;
-              }
-         .box-pad{
-              padding-bottom: 20px;
-              padding-top: 20px;
-              padding-left: 20px;
-              padding-right: 20px;
-              }
-        .margin-pad{
-            margin-bottom: 20px;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-              }
-        .container-fluid{
-          background-color: #c2c9d4;
-          padding-top: 10px;
-          margin-bottom: 20px;
-          border-radius: 15px;
-        }
-        .btn-custom {
-           background-color: #009eeb; /* Green */
-           border: none;
-           color: white;
-           padding: 15px 32px;
-           text-align: center;
-           text-decoration: none;
-           display: inline-block;
-           font-size: 20px;
-           border-radius: 5px;
-          }
-        .btn-custom:hover {
-          background-color: #003c64; /* Green */
-          color: white;
-        }
-        
-
-      </style>
 <head>
 <meta charset="utf-8" />
 <title>ID: Test</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="/Static/site.css">
+<link rel="stylesheet" href="../Static/site.css">
 </head>
 <body>
     <div class="row">
@@ -190,11 +28,11 @@
             <hr>
           </div>
             <div class="row">
-              <div class="col-sm-4"">
+              <div class="col-sm-3"">
                 <h3>EFSET Rubric</h3>
                 <div class="row">
                   <div class="col-sm-12">
-                      <button type="button" class="btn-custom max" style="height: 100px;" data-toggle="modal" data-target="#rubric">Rubric</button>
+                      <button type="button" class="btn btn-primary max"data-toggle="modal" data-target="#rubric">Rubric</button>
                       <div id = "rubric" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="rubric" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
@@ -295,7 +133,7 @@
                       <h4 class="text-center">Guides</h4>
                   </div>
                   <div class="col-sm-12">
-                      <button type="button" class="btn-custom max" data-toggle="modal" data-target="#accuracyrubric">Accuracy</button>
+                      <button type="button" class=" btn btn-primary max" data-toggle="modal" data-target="#accuracyrubric">Accuracy</button>
                       <div id = "accuracyrubric" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="accuracyrubric" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
@@ -371,7 +209,7 @@
                       </div>
                   </div>
                   <div class="col-sm-12">
-                        <button type="button" class="btn-custom max" data-toggle="modal" data-target="#fluencyrubric">Fluency</button>
+                        <button type="button" class="btn btn-primary max" data-toggle="modal" data-target="#fluencyrubric">Fluency</button>
                         <div id = "fluencyrubric" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="fluencyrubric" aria-hidden="true">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
@@ -447,7 +285,7 @@
                       </div>
                   </div>
                   <div class="col-sm-12">
-                      <button type="button" class="btn-custom max" data-toggle="modal" data-target="#coherencerubric">Coherence</button>
+                      <button type="button" class="btn btn-primary max" data-toggle="modal" data-target="#coherencerubric">Coherence</button>
                       <div id = "coherencerubric" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
@@ -516,7 +354,7 @@
                       </div>
                   </div>
                   <div class="col-sm-12">
-                      <button type="button" class="btn-custom max" data-toggle="modal" data-target="#rangerubric">Range</button>
+                      <button type="button" class="btn btn-primary max" data-toggle="modal" data-target="#rangerubric">Range</button>
                       <div id = "rangerubric" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
@@ -596,27 +434,51 @@
 
                       </div>
                     </div>
-            <div class="col-sm-8">
-                <div class="container-fluid text-center" style="height: 100px;" >
-                    <h5>What is a big decision you have made?</h5>
-                    <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%201.mp3" type="audio/mpeg"></audio>
-                </div>
-                <div class="container-fluid text-center"  style="height: 100px;" >
-                    <h5>Where do you work?</h5>
-                    <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%202.mp3" type="audio/mpeg"></audio>
-                </div>
-                <div class="container-fluid text-center"  style="height: 100px;" >
-                    <h5>Tell us about your family</h5>
-                    <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%203.mp3" type="audio/mpeg"></audio>
-                </div>
-                <div class="container-fluid text-center"  style="height: 100px;" >
-                    <h5>When is your brithday?</h5>
-                    <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%204.mp3" type="audio/mpeg"></audio>
-                </div>
-                <div class="container-fluid text-center"  style="height: 100px;" >
-                    <h5>What are the differences between your generation and older people?</h5>
-                    <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%205.mp3" type="audio/mpeg"></audio>
-                </div>
+            <div class="col-sm-9">
+                <table class="table-calibration" style="border: 0px;">
+                    <thead>
+                      <th class="table-format" style="font-size: 20px;">Number</th>
+                      <th class="table-format" style="font-size: 20px;">Question</th>
+                      <th class="table-format" style="font-size: 20px;">Audio Clip</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="table-format">1</td>
+                        <td class="table-format">What is a big decision you have made?</td>
+                        <td class="table-format">
+                          <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%201.mp3" type="audio/mpeg"></audio>
+                        </td>
+                      </tr>
+                      <tr>
+                       <td class="table-format">2</td>
+                       <td class="table-format">Where do you work?</td>
+                       <td class="table-format">
+                           <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%202.mp3" type="audio/mpeg"></audio>
+                         </td>
+                     </tr>
+                     <tr>
+                       <td class="table-format">3</td>
+                       <td class="table-format">Tell us about your family</td>
+                       <td class="table-format">
+                                 <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%204.mp3" type="audio/mpeg"></audio>
+                         </td>
+                     </tr>
+                     <tr>
+                       <td class="table-format">4</td>
+                       <td class="table-format">When is your birthday?</td>
+                       <td class="table-format">
+                           <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%204.mp3" type="audio/mpeg"></audio>
+                         </td>
+                     </tr>
+                     <tr>
+                       <td class="table-format">5</td>
+                       <td class="table-format">What are the differences between your generation and older people?</td>
+                       <td class="table-format">
+                           <audio controls src = "https://raw.githubusercontent.com/ASOTQA/EFSET/gh-pages/Audio%20Files/EFSET%20Example%205.mp3" type="audio/mpeg"></audio>
+                         </td>
+                     </tr>
+                    </tbody>
+                  </table>
                 </div>
             </div>
 
