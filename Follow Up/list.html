@@ -9,7 +9,40 @@
 <body>
     <div class="row">
         <div class="col-sm-1"></div>
-        <div class = "col-sm-10 jumbotron text-center">
+        <div class = "col-sm-10">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../Calibrations/Mandatory/55420199.html">Active Calibration</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../Follow Up/list.html">Follow Up Observations (Manager Access Only)</a>
+                        <a class="dropdown-item" href="../Rubric/Rubric.html">Rubric/Guides</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                      </li>
+                  </ul>
+                  <span class="navbar-text">
+                      <img class="menu-closed-logo" alt="EF Education First" src="../Static/EF-Teach-Online-Logo white transparent.png" height = "50" width = "170">
+                    </span>
+                </div>
+              </nav>
+              <div class="jumbotron text-center">
             <div class="row">
               <div class="col-sm-2">
                     <input class="btn btn-lg btn-dark" onclick="location.href = '../index.html'" type="button" value="Home" />
@@ -27,7 +60,7 @@
               </div>
             </div>
             <div class="row">
-                        <div class="col-sm-8" style="overflow-x: auto;">
+                        <div class="col-sm-6" style="overflow-x: auto;">
                                 <table class="table-calibration" style="border: 0px; background-color: #e9ecef;">
                                         <thead>
                                             <th class="table-format">Date</th>
@@ -71,7 +104,7 @@
                                         </tbody>
                                       </table>
                           </div>
-                          <div class="col-sm-4 jumbotron">
+                          <div class="col-sm-6 jumbotron">
                             <h3>Guidance on Follow Up Observations</h3>
                             <p>Follow up observations are designed to provide further assistance <br> or support, to teachers who are scoring below the desired threshold. <br>
                             Teacher who require follow up calibration excerises are displayed <br> in the 'Follow Up' section of the BI report sent to centre management.
@@ -80,7 +113,8 @@
             </div>
 
      
-    </div>
+          </div>
+        </div>
     <div class = "col-sm-1"></div>
         </div>
     </div>

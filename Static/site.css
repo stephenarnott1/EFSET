@@ -121,34 +121,9 @@ Text Tool Tips
 .navbar {
     margin-bottom: 0;
   }
-
-.navbar-inverse {
-    background: #2e2f31;
-    border: 0;
-  }
-.navbar-inverse .navbar-nav li a {
-    color: #f7f7f7;
-    font-size: 16px;
-  }
-.navbar-inverse .navbar-nav li a:hover {
-    background: #1b998b;
-  }
-  .dropdown-menu {
-    background: #2e2f31;
-    border-radius: 0;
-    border: 0;
-  }
-.dropdown-menu li a {
-    padding: 10px;
-  }
-.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
-    background: #2c463c;
-  }
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#27a967' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.navbar-collapse{
+  font-size: 18px;
 }
-.navbar-toggler { border-color: #9ba19b; }
-
 .big-text{
   font-size: 35px;
 }
