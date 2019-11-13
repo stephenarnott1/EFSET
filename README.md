@@ -1,6 +1,6 @@
 # EFSET Calibration System
 
-This set of pages outlines the calibration process for EFSET observers. We hope to provide observers with a simpler framework for observing calibrations, as well as providing centre managers tools and resources to track teacher progress and development.
+This set of pages provides the calibration process for EFSET observers. We hope to provide observers with a simpler framework for observing calibrations, as well as providing centre managers tools and resources to track teacher progress and development.
 
 This network of pages provides a calibration system in one location, rather than a distrubted program of forms, audio locations, and rubric/scoring guidelines. Though its principle use will be for pushing monthly calibtations to observers, the standards and rubric guides can naturally be used for general EFSET scoring too.
 
