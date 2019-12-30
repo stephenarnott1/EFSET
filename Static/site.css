@@ -5,7 +5,7 @@
 }
 
 .gmisc_table tr:hover th[scope=row], .gmisc_table tr:hover td { 
-	background-color: #D3d5d1;
+	background-color: rgb(202, 202, 202);
 	color: #000;
 	}
     table {
@@ -18,106 +18,26 @@
   background: #ffff;
   overflow-x:auto;
 	}
-	th, td {
+	td {
 	border: 1px solid black;
 	padding: 10px;
-	text-align: left;
+  text-align: left;
+}
+th {
+  position: sticky;
+  position: -webkit-sticky;
+  top: -3px; 
+  border: 1px solid black;
+	padding: 10px;
+  text-align: left;
+  background: darkgray;
 }
 .gmisc_table th[scope=col]{
 	border-bottom: 2px solid #333;
-	border-right: 2px solid #333;
+  border-right: 2px solid #333;
 }
 .gmisc_table th, .gmisc_table td { padding: 0.5em; }
 
-/***********************************
-Text Tool Tips
-************************************/
-.CellWithComment{position:relative;}
-
-.CellCommentAP {
-    visibility: hidden;
-    width: auto;
-    position:absolute;					
-    z-index:100;
-    text-align: Left;
-    opacity: 0.4;
-    border-radius: 6px;
-    background-color: #fbb819;
-	color: #ffff;
-	font-size: 14px;
-	text-align: center;
-    padding:3px;
-    top:20px; 
-    left:0px;
-}   
-.CellWithComment:hover span.CellCommentAP {visibility: visible;opacity: 1;}
-		
-.CellCommentFR {
-    visibility: hidden;
-    width: auto;
-    position:absolute; 
-	z-index:100;
-    text-align: Left;
-    opacity: 0.4;
-    border-radius: 6px;
-    background-color: #df3d5e;
-	color: #ffff;
-	font-size: 14px;
-	text-align: center;
-    padding:3px;
-    top:-30px; 
-    left:0px;
-}   
-.CellWithComment:hover span.CellCommentFR {visibility: visible;opacity: 1;}
-		
-.CellCommentV {
-    visibility: hidden;
-    width: auto;
-    position:absolute; 
-    z-index:100;
-    text-align: Left;
-    opacity: 0.4;
-    border-radius: 6px;
-    background-color: #8a6e91;
-	color: #ffff;
-	font-size: 14px;
-	text-align: center;
-    padding:3px;
-    top:-30px; 
-    left:0px;
-	right:0px;
-}   
-.CellWithComment:hover span.CellCommentV {visibility: visible;opacity: 1;}
-		
-.CellCommentGEN {
-    visibility: hidden;
-    width: auto;
-    position:absolute;
-    z-index:100;
-    text-align: Left;
-    opacity: 0.4;
-    border-radius: 6px;
-    background-color: #3ca9a1;
-	color: #ffff;
-	font-size: 14px;
-	text-align: center;
-    padding:3px;
-    top:20px; 
-    left:0px;
-}   
-.CellWithComment:hover span.CellCommentGEN {visibility: visible;opacity: 1;}
-		
-.forexplanation {
-	text-decoration: underline;
-}
-.menu-closed-logo {
-	vertical-align: top;
-	float: right;
-}
-.domaindesc{
-    border-top-width: 5px;
-    border-top-color: rgb(0, 0, 0)
-}
 .navbar {
     margin-bottom: 0;
   }
