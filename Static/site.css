@@ -98,74 +98,7 @@ Banner Details
   text-align: center;
   margin-top: 0px;
 }
-/* home page */
-.color-theme-a1{
-  background-color: #e63946;
-}
 
-.color-theme-a2 {
-  background-color: #457b9d;
-}
-
-.color-theme-a3 {
-  background-color: #a8dadc;
-}
-
-.color-theme-a3 {
-  background-color: #1d3557;
-  color: #f7f7f7;
-}
-
-/* login page */
-.color-theme-b1{
-  background-color: #1b998b;
-}
-
-.color-theme-b2 {
-  background-color: #f8f1ff;
-}
-
-.color-theme-b3 {
-  background-color: #decdf5;
-}
-
-.color-theme-b4 {
-  background-color: #656176;
-  color: #f7f7f7;
-}
-
-.login-button{
-  background-color: rgb(47, 71, 62);
-  color: #f7f7f7;
-}
-.login-button:hover{
-  background-color: #0f3120;
-  color:  #f7f7f7;
-}
-
-/* theme 3 */
-.color-theme-c1{
-  background-color: #ce2d4f;
-}
-
-.color-theme-c2 {
-  background-color: #ce6d8b;
-}
-
-.color-theme-c3 {
-  background-color: #efefef;
-  color: #000000;
-}
-
-.color-theme-c4 {
-  background-color: #4056f4;
-  color: #f7f7f7;
-}
-
-.color-theme-c5 {
-  background-color: #470ff4;
-  color: #f7f7f7;
-}
 /* EF Colors */
 .first-blue {
   background-color: #009eeb;
@@ -186,22 +119,7 @@ Banner Details
   background-color: #efefef;
   color: #000000;
 }
-/* admin page theme */
-.color-admin-1{
-  background-color: #2b2d42;
-}
-.color-admin-2{
-  background-color: #8d99ae;
-}
-.color-admin-3{
-  background-color: #edf2f4;
-}
-.color-admin-4{
-  background-color: #ef233c;
-}
-.color-admin-5{
-  background-color: #d80032;
-}
+
 
 
 
@@ -293,13 +211,11 @@ color: white;
     border: 0px; 
     padding: 40px;
     font-size: 20px;
-    text-align: center;
   }
   .table-format-small{
     border: 0px; 
     padding: 40px;
     font-size: 20px;
-    text-align: center;
   }
  
   .nav-link>.active{
