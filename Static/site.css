@@ -1,3 +1,7 @@
+body {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
 .body-content {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +34,6 @@ th {
   border: 1px solid black;
 	padding: 10px;
   text-align: left;
-  background: darkgray;
 }
 .gmisc_table th[scope=col]{
 	border-bottom: 2px solid #333;
@@ -216,7 +219,4 @@ color: white;
     border: 0px; 
     padding: 40px;
     font-size: 20px;
-  }
- 
-  .nav-link>.active{
   }
