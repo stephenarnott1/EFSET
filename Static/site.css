@@ -220,3 +220,16 @@ color: white;
     padding: 40px;
     font-size: 20px;
   }
+
+  .btn.btn-primary {
+    background-color: #009EEB;
+    border-color: #009EEB;
+  }
+  .btn.btn-primary:hover {
+    background-color: #1FB8FF;
+    border-color: #1FB8FF;
+    box-shadow: 0 2px 4px 0 rgba(125, 180, 235, 0.753), 0 2px 10px 0 rgba(125, 180, 235, 0.753);
+  }
+  .btn.btn-primary:focus {
+    background-color: #1FB8FF;
+  }
